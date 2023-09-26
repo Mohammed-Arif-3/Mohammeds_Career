@@ -1,0 +1,32 @@
+<div class="border-bottom row ; padding-bottom:4px" >
+    <div class="col-9">
+    <h5 style="color: rgb(120,120, 120); padding-top: 8px;">
+    
+        {{job['title']}}
+    </h5>
+        <div>
+            <h6><b>Location : </b>{{job['location']}}</h6> </div>
+            <div><b>Salary :  </b>{{job['salary']}}</div>
+            <br/>
+        </div>
+        <div class="col-3">
+            <button type="button" id="aply" class="btn btn-outline-primary">Apply</button>
+        </div>
+    
+</div>
+
+<style>
+       #aply{
+            margin-top: 25px;
+            text-align: center;
+            border-color: black;
+            color: black;
+         
+        }
+
+        #aply:hover{
+            background-color: rgb(0, 0, 0);
+            transition:ease-in;
+            color: white;
+        }
+</style>
